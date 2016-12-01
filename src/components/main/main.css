@@ -1,0 +1,7 @@
+/*main styling*/
+
+/*-------------------------------*/
+
+#primary-menu > div.ui.pointing.menu { /*remove all borders on segments*/
+	box-shadow: none;
+}

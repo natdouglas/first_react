@@ -1,0 +1,6 @@
+/*mortgage styling*/
+
+
+#secondary-menu > div.ui.pointing.secondary.menu { /*remove all borders on segments*/
+  box-shadow: none;
+}

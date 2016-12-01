@@ -1,0 +1,26 @@
+/*navbar styling*/
+
+div.ui.segment { /*remove all borders on segments*/
+	border: 0px;
+	box-shadow: none;
+}
+
+#navbar > div.ui.equal.width.grid {
+	margin: 0px;
+}
+
+#navbar > div.ui.equal.width.grid > div.column {
+	padding: 0px;
+}
+
+/*for right-most column Help, Contact Us, etc*/
+#navbar > div.ui.equal.width.grid > div.column > div.row > div.ui.equal.width.grid > div.column {
+	text-align: right;
+}
+
+/*for Search*/
+#navbar > div.ui.equal.width.grid > div.column > div.row > div.column > div.ui.right.floated.segment {
+	padding: 0px;
+	margin: 10px 0 0 0;
+	border: 0px;
+}

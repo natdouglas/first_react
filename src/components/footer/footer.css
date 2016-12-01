@@ -1,0 +1,42 @@
+/*footer styling*/
+
+/*-------------------------------*/
+
+#footer {
+	background-color: rgb(85,85,85);
+}
+
+#footer div.ui.segment { /*remove all borders on segments*/
+	border: 0px;
+	padding: 0px;
+	box-shadow: none;
+	background-color: rgb(85,85,85);
+}
+
+#footer > div.ui.equal.width.grid { /*ensure all contents fit within the container*/
+	margin: 0px;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer > div.ui.equal.width.grid > div.row > div.four.wide.column,
+#footer > div.ui.equal.width.grid > div.row > div.three.wide.column,
+#footer > div.ui.equal.width.grid > div.row > div.one.wide.column,
+#footer > div.ui.equal.width.grid > div.row > div.eight.wide.column {
+	padding: 0px;
+}
+
+#footer > div.ui.equal.width.grid > div.row > div.four.wide.column > div.ui.segment > a > img.ui.image { /*social media icons*/
+	display: inline;
+	padding-right: 10px;
+}
+
+#footer > div.ui.equal.width.grid > div.row > div.eight.wide.column > div.ui.segment > a > div.item {
+	display: inline;
+}
+
+#footer > div.ui.grid.container > div.equal.width.row > div.center.aligned.eight.wide.column {
+	align-self: center;
+}

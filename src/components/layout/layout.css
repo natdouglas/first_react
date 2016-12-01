@@ -1,0 +1,3 @@
+div #layoutcontainer { /*ensure navbar appears on the page fully*/
+	margin-top: 28px;
+}
